@@ -7,18 +7,18 @@
 //Stephanie Obwar
 
 
-Sample samp1 = Sample("Neonguts.mp3", 0, true); //The second argument indicates the channel - only one sample can be played per channel - you can have a max of 32 channels
-Sample samp2 = Sample("Crew.mp3", 0, true); //the third argument indicates that the sample should play in loop mode where it loops until you stop the program
-Sample samp3 = Sample("Dancemonkey.mp3", 0, true); //Put the full file path to your sound for the first argument - for now it only plays wav files
-Sample samp4 = Sample("Badkarma.mp3", 0, true);
+Sample samp1 = Sample("Verse1.mp3", 0, true); //The second argument indicates the channel - only one sample can be played per channel - you can have a max of 32 channels
+Sample samp2 = Sample("Verse2.mp3", 0, true); //the third argument indicates that the sample should play in loop mode where it loops until you stop the program
+Sample samp3 = Sample("Verse3.mp3", 0, true); //Put the full file path to your sound for the first argument - for now it only plays wav files
+Sample samp4 = Sample("Verse.mp3", 0, true);
 Sample playing1 = samp1;//initialize a sample variable called playing to control the song currently playing
 
 float lcv1 = 0.0;//initialize last channel volume for left side
 
-Sample samp5 = Sample("BMO.mp3", 1, true);
-Sample samp6 = Sample("Sorry.mp3", 1, true);
-Sample samp7 = Sample("Playinggames.mp3", 1, true);
-Sample samp8 = Sample("Juice.mp3", 1, true);
+Sample samp5 = Sample("Verse5.mp3", 1, true);
+Sample samp6 = Sample("Verse6.mp3", 1, true);
+Sample samp7 = Sample("Verse7.mp3", 1, true);
+Sample samp8 = Sample("Verse8.mp3", 1, true);
 Sample playing2 = samp5;//initialize a sample variable for current song playing in that channel
 
 float lcv2 = 0.0;//initialize last channel volume for right side
